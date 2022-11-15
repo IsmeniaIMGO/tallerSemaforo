@@ -68,7 +68,7 @@ public class Hospital {
 	 */
 	public void simularPacientes(){
 		Paciente paciente = null;
-		for (int i = 1; i < 10; i++) {
+		for (int i = 1; i < 8; i++) {
 			paciente = new Paciente("Paciente "+i,this);
 			paciente.start();
 			

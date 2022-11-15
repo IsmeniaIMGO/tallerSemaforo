@@ -43,7 +43,7 @@ public class Paciente  extends Thread{
 	@Override
 	public void run(){
 		hospital.solicitarAtencion();
-		System.out.println("El "+getNombre()+" entro al hospital");
+		System.out.println("El "+getNombre()+" entro al hospital y esta siendo atendido");
 		try {
 			Thread.sleep(30000);
 			hospital.cancelarAtencion();
